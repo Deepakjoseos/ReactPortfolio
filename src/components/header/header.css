@@ -1,5 +1,5 @@
 header {
-  height: 140vh;
+  height: 186vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -47,6 +47,10 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 /*SCROLL DOWN*/
+.Text__type {
+  color: var(--color-primary);
+  font-size: 2rem;
+}
 
 .scroll__down {
   position: absolute;
@@ -56,6 +60,7 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+
 /*MEDIAL QUERIES (medium devices)*/
 @media screen and (max-width: 1024px) {
   .header {
