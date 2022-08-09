@@ -75,7 +75,7 @@ nav a.active {
 @media screen and (max-width: 300px) {
   nav {
     width: 75%;
-    left: 50%;
+    left: 40%;
   }
   nav a {
     padding: 0.01em 0.01em;
