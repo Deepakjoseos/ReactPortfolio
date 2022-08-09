@@ -32,7 +32,10 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../../assets/bg-texture.png);
+  background: linear-gradient(rgb(26, 1, 1), transparent),
+    linear-gradient(to top left, rgb(1, 19, 1), transparent),
+    linear-gradient(to top right, rgb(6, 6, 29), transparent);
+  background-blend-mode: screen;
 }
 
 /*-----General Styles------*/
