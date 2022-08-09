@@ -31,9 +31,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: var(--color-white);
   line-height: 1.7;
-  background: linear-gradient(rgb(6, 6, 29), transparent),
-    linear-gradient(to top left, rgb(6, 6, 29), transparent),
-    linear-gradient(to top right, rgb(6, 6, 29), transparent);
+  background: #212529;
   background-blend-mode: screen;
 }
 
