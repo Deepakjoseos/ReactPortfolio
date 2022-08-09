@@ -16,7 +16,6 @@ const Header = () => {
           backSpeed={100}
           loop
         />
-        <h5 className="text-light">FullStack Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">
