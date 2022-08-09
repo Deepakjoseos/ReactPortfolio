@@ -28,3 +28,18 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+/*------MEDIA QUERIES(MEDIUM DEVICES)------*/
+
+@media screen and (max-width: 1024px) {
+  nav {
+    width: var(--container-width-md);
+  }
+}
+
+/*------MEDIA QUERIES(SMALL DEVICES)------*/
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: var(--container-width-sm);
+  }
+}
