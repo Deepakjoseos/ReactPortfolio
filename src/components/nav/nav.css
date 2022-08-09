@@ -33,7 +33,19 @@ nav a.active {
 @media screen and (max-width: 1024px) {
   nav {
     width: var(--container-width-md);
-    padding: 0.4rem 1.4rem;
+  }
+  nav a {
+    padding: 2.7rem 2.7rem;
+  }
+}
+@media screen and (max-width: 930px) {
+  nav a {
+    padding: 2.4rem 2.4rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  nav a {
+    padding: 1.9rem 1.9rem;
   }
 }
 
@@ -42,6 +54,30 @@ nav a.active {
 @media screen and (max-width: 600px) {
   nav {
     width: var(--container-width-sm);
-    padding: 0.2rem 1rem;
+  }
+  nav a {
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  nav a {
+    padding: 0.5em 0.5em;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    width: var(--container-width-sm);
+  }
+  nav a {
+    padding: 0.4em 0.4em;
+  }
+}
+@media screen and (max-width: 300px) {
+  nav {
+    width: 75%;
+    left: 50%;
+  }
+  nav a {
+    padding: 0.01em 0.01em;
   }
 }
