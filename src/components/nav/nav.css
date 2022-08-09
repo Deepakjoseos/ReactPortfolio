@@ -33,6 +33,7 @@ nav a.active {
 @media screen and (max-width: 1024px) {
   nav {
     width: var(--container-width-md);
+    padding: 0.4rem 1.4rem;
   }
 }
 
@@ -41,5 +42,6 @@ nav a.active {
 @media screen and (max-width: 600px) {
   nav {
     width: var(--container-width-sm);
+    padding: 0.2rem 1rem;
   }
 }
