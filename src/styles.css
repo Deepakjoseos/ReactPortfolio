@@ -29,7 +29,6 @@ html {
 }
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
   background: linear-gradient(rgb(6, 6, 29), transparent),
