@@ -1,6 +1,10 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import { AiOutlineHtml5 } from "react-icons/ai";
+import { DiCss3 } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { BsBootstrapFill } from "react-icons/bs";
+import { DiJavascript1, DiReact, DiNodejs, DiMongodb } from "react-icons/di";
 
 const Experience = () => {
   return (
@@ -12,35 +16,35 @@ const Experience = () => {
           <h3>FrontEnd Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <AiOutlineHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <BsBootstrapFill className="experience__details-icon" />
               <div>
                 <h4>BOOTSTRAP</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiJavascript1 className="experience__details-icon" />
               <div>
                 <h4>JAVASCRIPT</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiReact className="experience__details-icon" />
               <div>
                 <h4>REACT JS</h4>
                 <small className="text-light">Experienced</small>
@@ -52,21 +56,21 @@ const Experience = () => {
           <h3>BackEnd Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiNodejs className="experience__details-icon" />
               <div>
                 <h4>NODE JS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiMongodb className="experience__details-icon" />
               <div>
                 <h4>MONGODB</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiExpress className="experience__details-icon" />
               <div>
                 <h4>EXPRESS JS</h4>
                 <small className="text-light">Experienced</small>
