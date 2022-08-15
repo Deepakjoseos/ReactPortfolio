@@ -36,7 +36,7 @@ header {
 /*-----Me-----------*/
 
 .me {
-  background: linear-gradient(var(--color-primary-variant), transparent);
+  background: linear-gradient(var(--color-white), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
